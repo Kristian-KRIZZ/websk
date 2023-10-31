@@ -3,7 +3,7 @@
 @section('title', 'Mahasiswa')
 
 @section('breadcrumb')
-    <li class="breadcrumb-item active">Mahasiswa</li>
+    <li class="breadcrumb-item active">Matakuliah</li>
 @endsection
 
 @section('content')
@@ -11,7 +11,7 @@
         <div class="card-header">
             <div class="row">
                 <div class="col-10">
-                    <h4 class="card-title">Tabel Data Mahasiswa</h4>
+                    <h4 class="card-title">Tabel Data Matakuliah</h4>
                 </div>
                 <div class="col-2">
                     <a class="btn btn-sm btn-primary float-end" href="{{ url('/MK/create') }}">Tambah</a>
@@ -22,8 +22,8 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col">NIM</th>
-                        <th scope="col">Nama</th>
+                        <th scope="col">Kode Mata Kuliah</th>
+                        <th scope="col">Nama Mata Kuliah</th>
                         <th scope="col">Jurusan</th>
                         <th scope="col"></th>
                     </tr>
@@ -31,7 +31,7 @@
                 <tbody>
                     @foreach ($matkul as $m)
                         <tr>
-                            <td>{{ $m['nim'] }}</td>
+                            <td>{{ $m['kode'] }}</td>
                             <td>{{ $m['nama'] }}</td>
                             <td>{{ $m['jurusan'] }}</td>
                             <td class="float-end">

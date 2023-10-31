@@ -18,8 +18,8 @@
             <div class="card-body">
                 @csrf
                 <div>
-                    <label class="form-label">NIM</label>
-                    <input class="form-control" type="text" name="nim">
+                    <label class="form-label">Kode</label>
+                    <input class="form-control" type="text" name="kode">
                 </div>
                 <div>
                     <label class="form-label">Nama</label>
@@ -30,7 +30,7 @@
                     <select class="form-select" name="jurusan">
                         <option value="1">TI</option>
                         <option value="2">SK</option>
-                        <option value="3">DGM</option>
+                        <option v=alue="3">DGM</option>
                     </select>
                 </div>
 

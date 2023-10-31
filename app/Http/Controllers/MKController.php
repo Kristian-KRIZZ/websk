@@ -8,23 +8,23 @@ class MKController extends Controller
 {
     private $matkul = [
         [
-            'nim' => "123456",
-            'nama' => "I Putu satu",
+            'kode' => "010234",
+            'nama' => "Front-End Developer",
             'jurusan' => "TI",
         ],
         [
-            'nim' => "234567",
-            'nama' => "I Wayan dua",
+            'kode' => "253782",
+            'nama' => "Full Stack Developer",
             'jurusan' => "TI",
         ],
         [
-            'nim' => "345678",
-            'nama' => "I Ketut tiga",
+            'kode' => "129030",
+            'nama' => "Unit Control",
             'jurusan' => "SK",
         ],
         [
-            'nim' => "456789",
-            'nama' => "I Kadek empat",
+            'kode' => "478561",
+            'nama' => "AI Technology",
             'jurusan' => "DGM",
         ],
     ];
