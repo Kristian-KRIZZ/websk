@@ -23,7 +23,7 @@
                 </div>
                 <div>
                     <label class="form-label">Nama</label>
-                    <input class="form-control" type="text" name="nama">
+                    <input class="form-control" type="text" name="kdoe">
                 </div>
                 <div>
                     <label class="form-label">Jurusan</label>
