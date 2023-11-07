@@ -13,8 +13,9 @@ return new class extends Migration
     {
         Schema::create('mk', function (Blueprint $table) {
             $table->id();
-            $table->string('kode')->unique();
-            $table->string('MK');
+            $table->string('id_mk')->unique();
+            $table->string('nama_mk');
+            $table->string('jurusan');
             $table->foreignId('jurusan_id');
             $table->timestamps();
         });

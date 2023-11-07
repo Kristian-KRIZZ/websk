@@ -29,11 +29,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($matkul as $m)
+                    @foreach ($MK as $m)
                         <tr>
-                            <td>{{ $m['kode'] }}</td>
-                            <td>{{ $m['nama'] }}</td>
-                            <td>{{ $m['jurusan'] }}</td>
+                            <td>{{ $m->'id_mk' }}</td>
+                            <td>{{ $m->'nama_mk' }}</td>
+                            <td>{{ $m->'jurusan' }}</td>
                             <td class="float-end">
                                 <a class="btn btn-sm btn-warning"
                                     href="{{ url('/MK/' . $loop->index . '/edit') }}">Ubah</a>
